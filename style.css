@@ -1,0 +1,54 @@
+* {
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eaeaea;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  background-color: #ffff;
+  width: 35vh;
+  padding: 40px 20px 20px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.text-red {
+  color: red;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-body {
+  line-height: 25px;
+}
+
+.btn {
+  background-color: #0000ff;
+  color: #ffff;
+  text-decoration: none;
+  padding: 12px 20px;
+  width: max-content;
+  border-radius: 7px;
+}
